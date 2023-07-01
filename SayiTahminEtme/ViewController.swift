@@ -30,13 +30,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         hakLabel.text = "Kalan hak : \(kalanHak)"
+        infoLabel.isHidden = true
+        
+        
         
         
     }
     
     @IBAction func tahminButton(_ sender: Any) {
         
-        
+            
+        infoLabel.isHidden = false 
     
          kalanHak  -= 1
         
